@@ -1,0 +1,18 @@
+.barra{
+    display: flex;
+    gap: 10px;
+    flex-flow: wrap;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.overBonito{
+    font-size: 20px;
+}
+
+.overBonito:hover:nth-child(2n) {
+    background-color: grey;
+    cursor: pointer;
+    font-size: 40px;
+}
+
